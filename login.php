@@ -1,23 +1,23 @@
 <?php
-include 'includes/header.php';
+    include 'includes/header.php';
 ?>
-  <section class="vh-100">
+<section class="vh-100">
     <div class="container py-5 h-100">
       <div class="row d-flex align-items-center justify-content-center h-100">
         <div class="col-md-6 mb-5">
           <img src="assets/img/gato_login.png" class="img-fluid" alt="Phone image" style="max-width: 400px; height: auto;">
         </div>
         <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-          <form style="background-color: #f8e3f2; border: 2px solid #d060d0ff; border-radius: 15px; padding: 20px; margin: 10px;">
+          <form style="background-color: #a3ceef; border: 2px solid #00569d; border-radius: 15px; padding: 20px; margin: 10px;">
             <!-- Email input -->
             <div data-mdb-input-init class="form-outline mb-4">
-              <label class="form-label" for="form1Example13">Email:</label>
+              <strong class="form-label" for="form1Example13" style="color:#00569d">Email:</strong>
               <input type="email" id="form1Example13" class="form-control form-control-lg" />
             </div>
 
             <!-- Senha input -->
             <div data-mdb-input-init class="form-outline mb-4">
-              <label class="form-label" for="form1Example23">Senha:</label>
+              <strong class="form-label" for="form1Example23" style="color:#00569d">Senha:</strong>
               <input type="password" id="form1Example23" class="form-control form-control-lg" />
             </div>
 
@@ -36,7 +36,9 @@ include 'includes/header.php';
         </div>
       </div>
     </div>
-  </section>
+</section>
 <?php
-include 'includes/footer.php';
+    include 'includes/footer.php';
 ?>
+</body>
+</html>

@@ -1,68 +1,64 @@
 <?php
-include 'includes/header.php';
+    include 'includes/header.php';
 ?>
-<!-- Header-->
-<header class="masthead text-center text-white">
-    <div class="masthead-content">
-        <div class="container px-5">
-            <br><br><h1 class="masthead-heading mb-0">Clínica Veterinária</h1><br>
-            <h2 class="masthead-subheading mb-0">Akira Pets</h2><br> <br><br>
-            <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Saiba Mais</a>
+<!-- Cabeçalho com imagem e frase de impacto -->
+<header class="masthead">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6">
+                <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                    <h1 class="display-1 lh-1 mb-3">Bem-vindo à sua clínica veterinária de confiança</h1>
+                    <p class="lead fw-normal text-muted mb-5">
+                        Cuidar do seu pet é a nossa paixão. Agende uma consulta e garanta mais saúde, alegria e qualidade de vida para o seu melhor amigo!
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="assets/img/animais-de-estimacao.png" alt="Imagem de animais de estimação" class="img-fluid">
+            </div>
         </div>
     </div>
-    <div class="bg-circle-1 bg-circle"></div>
-    <div class="bg-circle-2 bg-circle"></div>
-    <div class="bg-circle-3 bg-circle"></div>
-    <div class="bg-circle-4 bg-circle"></div>
 </header>
-<!-- Content section 1-->
-<section id="scroll">
+
+<!-- Citação/Depoimento -->
+<aside class="text-center bg-gradient-primary-to-secondary">
     <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid" src="assets/img/01.png" alt="..." /></div>
+        <div class="row gx-5 justify-content-center">
+            <div class="col-xl-8">
+                <div class="h2 fs-1 text-white mb-4">
+                    "Aqui, seu pet é tratado com carinho, respeito e dedicação. Nossa missão é garantir que cada patinha receba o cuidado que merece!"
+                </div>
             </div>
-            <div class="col-lg-6 order-lg-1">
-                <div class="p-5">
-                    <h2 class="display-4">Para tutores que amam seus pets...</h2>
-                    <p>Na nossa clínica, entendemos que seu animal de estimação é parte da família. Oferecemos consultas, vacinação, exames laboratoriais e atendimento emergencial com toda a dedicação que seu companheiro merece.</p>
+        </div>
+    </div>
+</aside>
+
+<!-- Sessão sobre a clínica -->
+<section class="bg-light">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+            <div class="col-12 col-lg-5">
+                <h2 class="display-4 lh-1 mb-4">Amor, cuidado e excelência em cada atendimento</h2>
+                <p class="lead fw-normal text-muted mb-5 mb-lg-0">
+                    Nossa clínica foi criada pensando em proporcionar uma experiência acolhedora e segura para você e seu pet.
+                    Contamos com uma equipe especializada, estrutura moderna e um ambiente tranquilo, ideal para atendimentos, vacinas, exames e muito mais. Porque para nós, seu animal de estimação é parte da família!
+                </p>
+            </div>
+            <div class="col-sm-8 col-md-6">
+                <div class="px-5 px-sm-0">
+                    <img class="img-fluid" src="assets/img/vet.png" alt="Veterinária cuidando de um cachorro" />
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Content section 2-->
-<section>
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6">
-                <div class="p-5"><img class="img-fluid" src="assets/img/02.png" alt="..." /></div>
-            </div>
-            <div class="col-lg-6">
-                <div class="p-5">
-                    <h2 class="display-4">Nós cuidamos deles!</h2>
-                    <p>Contamos com equipe especializada em diversas áreas: clínica geral, cirurgia, odontologia veterinária e cuidados preventivos. Seu pet está em boas mãos conosco, garantindo saúde e bem-estar em todas as fases da vida.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Content section 3-->
-<section>
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center">
-            <div class="col-lg-6 order-lg-2">
-                <div class="p-5"><img class="img-fluid" src="assets/img/03.png" alt="..." /></div>
-            </div>
-            <div class="col-lg-6 order-lg-1">
-                <div class="p-5">
-                    <h2 class="display-4">Amor incondicional!</h2>
-                    <p>Oferecemos também serviços de banho e tosa, hospedagem e adestramento. Aqui, cada detalhe é pensado para o conforto e felicidade do seu animal. Venha nos visitar e comprove nosso carinho pelos bichinhos!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <?php
-include 'includes/footer.php';
+    include 'includes/footer.php';
 ?>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>
