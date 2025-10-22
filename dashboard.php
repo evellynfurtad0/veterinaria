@@ -10,7 +10,7 @@
                 <div class="mb-5 mb-lg-0 text-center text-lg-start">
                     <h1 class="display-1 lh-1 mb-3">Bem-vinda, Gabriela!</h1>
                     <p class="lead fw-normal text-muted mb-5">
-                        Você agora está logado. Esta é uma simulação de como o painel eé para ficar.
+                        Você agora está logado. Esta é uma simulação de como o painel é para ficar.
                     </p>
                 </div>
             </div>

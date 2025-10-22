@@ -5,10 +5,10 @@
     <div class="container py-5 h-100">
       <div class="row d-flex align-items-center justify-content-center h-100">
         <div class="col-md-6 mb-5">
-          <img src="assets/img/gato_login.png" class="img-fluid" alt="Phone image" style="max-width: 400px; height: auto;">
+          <img src="assets/img/gato_login.png" class="img-fluid" alt="Phone image" style="max-width: 65%; height: auto; ">
         </div>
         <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-          <form style="background-color: #a3ceef; border: 2px solid #00569d; border-radius: 15px; padding: 20px; margin: 10px;">
+          <form style="background-color: #f; border: 1px solid #00569d; border-radius: 15px; padding: 20px; margin: 10px;">
             <!-- Email input -->
             <div data-mdb-input-init class="form-outline mb-4">
               <strong class="form-label" for="form1Example13" style="color:#00569d">Email:</strong>
@@ -31,7 +31,7 @@
             </div>
 
             <!-- Submit button -->
-            <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block">Entrar</button>
+            <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block" style="display: block; margin: 0 auto; width: 250px;">Entrar</button>
           </form>
         </div>
       </div>
