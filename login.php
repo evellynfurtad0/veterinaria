@@ -31,7 +31,7 @@
             </div>
 
             <!-- Submit button -->
-            <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block" style="display: block; margin: 0 auto; width: 250px;">Entrar</button>
+            <a href="dashboard_cliente.php" type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btn-block" style="display: block; margin: 0 auto; width: 250px;">Entrar</a>
           </form>
         </div>
       </div>

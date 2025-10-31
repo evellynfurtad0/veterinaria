@@ -1,7 +1,7 @@
 <?php
     include 'includes/header.php';
 ?>
-<section class="vh-100 d-flex align-items-center" style="background-color: #f8f9fa;">
+<section class="d-flex align-items-center" style="background-color: #f8f9fa; padding-top: 100px; padding-bottom: 100px; min-height: 100vh;">
   <div class="container py-5">
     <div class="row align-items-center justify-content-center">
 
@@ -40,12 +40,12 @@
           </div>
 
           <!-- Tipo de Usuário -->
-          <div class="mb-4 text-center">
+          <!-- <div class="mb-4 text-center">
             <div class="btn-group" role="group" aria-label="Tipo de Usuário">
               <button type="button" class="btn btn-outline-primary">Administrador</button>
               <button type="button" class="btn btn-outline-primary">Cliente</button>
             </div>
-          </div>
+          </div> -->
 
           <!-- Link de login -->
           <div class="text-center mb-4">
@@ -53,16 +53,15 @@
           </div>
 
           <!-- Botão de envio -->
-          <button type="submit" class="btn btn-primary btn-lg w-100">Cadastrar</button>
+          <a href="dashboard_adm.php" type="submit" class="btn btn-primary btn-lg w-100">Cadastrar</a>
         </form>
       </div>
-
-      <!-- Coluna da imagem (à direita) -->
-      :
 
     </div>
   </div>
 </section>
+
+
 
 
 <?php

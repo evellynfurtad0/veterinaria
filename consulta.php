@@ -3,7 +3,7 @@
 ?>
 <body>
 <div class="container_consulta">
-    <h1>Cadastre a Consulta do seu Pet</h1>
+    <h1>Marque a Consulta do seu Pet</h1>
     <form action="inserir.php" method="POST">
         <!-- Nome do Pet -->
         <div class="mb-3">
@@ -26,6 +26,16 @@
         <!-- Raça -->
         <div class="mb-3">
             <input type="text" class="form-control" name="raca" placeholder="Digite a raça do pet" required>
+        </div>
+
+        <!-- Idade -->
+        <div class="mb-3">
+            <input type="text" class="form-control" name="idade" placeholder="Digite a idade do pet" required>
+        </div>
+
+        <!-- Peso -->
+        <div class="mb-3">
+            <input type="text" class="form-control" name="peso" placeholder="Digite o peso" required>
         </div>
 
         <!-- Sexo -->
@@ -58,7 +68,18 @@
 
         <!-- Horário -->
         <div class="mb-3">
-            <input type="time" class="form-control" name="horario" required>
+            <select class="form-control" name="procedimento" required>
+                <option value="" disabled selected>Selecione o horário</option>
+                <option value="09">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="13">12:00</option>
+                <option value="14">14:00</option>
+                <option value="15">15:00</option>
+                <option value="16">16:00</option>
+                <option value="17">17:00</option>
+                <option value="18">18:00</option>
+            </select>
         </div>
 
         <!-- Campo Opcional -->
@@ -68,7 +89,7 @@
 
         <!-- Botões -->
         <button type="submit" class="btn btn-primary">Cadastrar</button>
-        <a href="index.php" type="button" class="btn btn-warning">Voltar</a>
+        <a href="dashboard_cliente.php" type="button" class="btn btn-warning">Voltar</a>
     </form>
 </div>
 
