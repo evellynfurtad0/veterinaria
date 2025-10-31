@@ -24,7 +24,7 @@ include 'includes/header_adm.php'
     <div class="container px-5">
         <div class="row gx-5">
             <div class="col-12">
-                <h2 class="display-6 mb-4">Suas Consultas</h2>
+                <h2 class="display-6 mb-4">Consultas Pendentes</h2>
                 <div class="table-responsive">
                     <table class="table table-striped table-hover"
                         style="border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 255, 0.1); overflow: hidden; border-collapse: collapse;">
@@ -35,7 +35,7 @@ include 'includes/header_adm.php'
                                 <th scope="col">PROCEDIMENTO</th>
                                 <th scope="col">DATA</th>
                                 <th scope="col">HORÁRIO</th>
-                                <th scope="col">iNFORMAÇÕES</th>
+                                <th scope="col">INFORMAÇÕES</th>
                             </tr>
                         </thead>
                         <tbody>
