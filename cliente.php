@@ -62,9 +62,38 @@
                     <td>Macho</td>
                     <td>Banho e Tosa</td>
                     <td>25/03/2024</td>
-                    <td>16:15</td>
+                    <td>16:00</td>
                     <td>Sensível ao calor extremo</td>
                 </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Lucas Oliveira</td>
+                    <td>Max</td>
+                    <td>Cachorro</td>
+                    <td>Bulldog Francês</td>
+                    <td>10 anos</td>
+                    <td>11 kg</td>
+                    <td>Macho</td>
+                    <td>Banho e Tosa</td>
+                    <td>25/03/2024</td>
+                    <td>17:00</td>
+                    <td>Sensível ao calor extremo</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Lucas Oliveira</td>
+                    <td>Max</td>
+                    <td>Cachorro</td>
+                    <td>Bulldog Francês</td>
+                    <td>10 anos</td>
+                    <td>11 kg</td>
+                    <td>Macho</td>
+                    <td>Banho e Tosa</td>
+                    <td>25/03/2024</td>
+                    <td>18:00</td>
+                    <td>Sensível ao calor extremo</td>
+                </tr>
+
             </tbody>
         </table>
     </div>
