@@ -1,7 +1,8 @@
 <?php
-    include 'includes/header.php';
+include 'includes/header.php';
 ?>
-<section class="d-flex align-items-center" style="background-color: #f8f9fa; padding-top: 100px; padding-bottom: 100px; min-height: 100vh;">
+<section class="d-flex align-items-center"
+  style="background-color: #f8f9fa; padding-top: 100px; padding-bottom: 100px; min-height: 100vh;">
   <div class="container py-5">
     <div class="row align-items-center justify-content-center">
 
@@ -39,14 +40,6 @@
             <input type="password" id="senha" class="form-control form-control-lg" placeholder="********" />
           </div>
 
-          <!-- Tipo de Usuário -->
-          <!-- <div class="mb-4 text-center">
-            <div class="btn-group" role="group" aria-label="Tipo de Usuário">
-              <button type="button" class="btn btn-outline-primary">Administrador</button>
-              <button type="button" class="btn btn-outline-primary">Cliente</button>
-            </div>
-          </div> -->
-
           <!-- Link de login -->
           <div class="text-center mb-4">
             <a href="login.php">Já tem uma conta?</a>
@@ -60,15 +53,6 @@
     </div>
   </div>
 </section>
-
-
-
-
 <?php
-    include 'includes/footer.php';
+include 'includes/footer.php';
 ?>
-</body>
-</html>
-
-
-

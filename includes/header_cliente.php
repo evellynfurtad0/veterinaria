@@ -16,9 +16,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/login.css" rel="stylesheet" />
-        <link href="css/sobre.css" rel="stylesheet" />
         <link href="css/consulta.css" rel="stylesheet" />
+        <link href="css/meuspets.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
